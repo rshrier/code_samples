@@ -1,0 +1,198 @@
+<style type="text/css">
+ :root {
+ color-scheme: light dark;
+ supported-color-schemes: light dark;
+ }
+ body {
+ margin: 0;
+ padding: 0;
+ -webkit-text-size-adjust: 100% !important;
+ -ms-text-size-adjust: 100% !important;
+ -webkit-font-smoothing: antialiased !important;
+ font-family:arial, 'helvetica neue', helvetica, sans-serif;
+ mso-line-height-rule: exactly;
+ }
+ img {
+ border: 0 !important;
+ outline: none !important;
+ }
+ table {
+ border-collapse: collapse;
+ mso-table-lspace: 0px;
+ mso-table-rspace: 0px;
+ }
+ td, a, span {
+ border-collapse: collapse;
+ }
+ .ExternalClass * {
+ line-height: 100%;
+ }
+ .em_g_img + div {
+ display: none;
+ }
+ a[x-apple-data-detectors], u + .em_body a, #MessageViewBody a {
+ color: inherit;
+ text-decoration: none;
+ font-size: inherit;
+ font-family: inherit;
+ font-weight: inherit;
+ line-height: inherit;
+ }
+ p, h1, h2, h3, h4, h5, h6 {
+ margin: 0;
+ }
+ h1, h2, h3, h4, h5, h6, p, li {
+ mso-line-height-rule: exactly;
+ line-height: 1.4;
+ }
+ .em_desk_hide {
+ display: none;
+ }
+ .em_web_view {
+ padding-bottom: 0 !important;
+ }
+ 
+ 
+@media only screen and (max-width:599px) {
+ .em_container {
+  width: 100% !important;
+ }
+ .em_hide {
+  display: none !important;
+ }
+ .em_desk_hide {
+  width: 100% !important;
+  height: auto;
+  display: block !important;
+  overflow: visible !important;
+  max-height: inherit !important;
+ }
+ .em_full_block {
+  width: 100% !important;
+  max-width: 100% !important;
+  display: block !important;
+ }
+ .em_full{
+  width: 100% !important;
+  max-width: 100% !important;
+ }
+ .em_stack{
+  display: block !important;
+ }
+ .em_full_img, .em_full_img img {
+  width: 100% !important;
+  height: auto !important;
+ }
+ .em_center {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+ }
+ .em_content_padding{
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+ }
+ .em_padding_none {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+ }
+ .em_pb_none {
+  padding-bottom: 0 !important;
+ }
+ .em_mobile_padding {
+	padding-top: 20px !important;
+ }
+ .em_pref {
+  width: 80% !important;  
+ }
+ u + .em_body {
+  width: 100% !important;
+  width: 100vw !important;
+ }
+ .em_pref_links {
+  font-size: 14px !important;
+ }
+ .em_footer p {
+  font-size: 11px !important;
+ }
+/*App Download Bar*/
+ .em_button_padding {
+  padding-bottom: 30px !important;
+ }
+ .em_button_width {
+  width: 165px !important;
+ } 
+}
+
+@media only screen and (max-width:480px) {
+ .em_content_padding {
+     padding-left: 15px !important;
+     padding-right: 15px !important;
+  } 
+}
+ 
+@media only screen and (max-width:380px) {
+ .em_pref_links {
+    font-size: 12px !important;
+ }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+ .em_dark {
+  background-color: #000000 !important;
+ }
+
+ .em_white_bg {
+  background-color: #f1f1f1 !important;
+ }
+
+ .em_grey_bg {
+  background-color: #2a2a2a !important;
+ }
+
+ .em_black_text {
+  color: #000000 !important;
+ }
+
+ .em_black_text a {
+  color: #000000 !important;
+ }
+
+ .em_white_text {
+  color: #FFFFFF !important;
+ }
+
+ .em_blue_text {
+  color: #a5c4fa !important;
+ }
+
+ .em_blue_link {
+  color: #6d94df !important;
+ }
+
+ .em_none {
+  display: none !important;
+ }
+
+ .em_light_img {
+  display: none !important;
+ }
+
+ .em_dark_img {
+  display: block !important;
+ }
+
+ .em_web_view {
+  padding: 20px 40px !important;
+ }
+ .em_button_color{
+  background-color: #5386D9 !important;
+ }
+ .em_border_bottom {
+  border-bottom: 2px solid #ebebeb !important;
+ }
+ .em_dark_padding {
+  padding: 30px 20px 20px !important;
+ }
+}
+</style>

@@ -1,0 +1,81 @@
+<style type="text/css">
+/* Monthly Newsletter CSS */
+	.em_desk_stack {
+		display: block !important;
+	}
+	.em_blog_copy p, .em_body_link a {
+		mso-line-height-rule: exactly;
+		line-height: 1.25 !important;
+	}
+@media only screen and (max-width:599px) {
+	h2 {
+		margin-bottom: 15px !important;
+		font-size: 22px !important;
+	}
+	h4 {
+		font-size: 22px !important;
+	}
+	h5 {
+		font-size: 20px !important;
+		padding-right: 40px !important;
+	}
+	.em_blog_copy {
+		padding: 30px 0 0 !important;
+	}
+	.em_blog_copy p {
+		font-size: 18px !important; 
+	}
+	.em_button_wrapper {
+		padding: 40px 0 10px !important;
+	}
+	.em_button {
+		font-size: 20px !important;
+		line-height: 26px !important;
+		padding: 10px 20px !important;
+	}
+	.em_pillar {
+		padding: 0 0 30px 0 !important;
+	}
+	.em_desk_stack {
+		display: inline-block !important;	
+	}
+	.em_body_link {
+		font-size: 18px !important;
+		display: block !important;
+	}
+	.em_p_20 {
+		padding: 20px !important;
+	}
+	.em_pb_15 {
+		padding-bottom: 15px !important;
+	}
+	.em_border_none {
+		border: none !important;
+	}
+	.em_icon {
+		padding: 0 10px 0 0 !important;
+	}
+	.em_read_more {
+		padding: 20px 10px !important;
+	}	
+}
+
+@media screen and (prefers-color-scheme: dark) {
+	.em_white_border {
+		border-top: 1px solid #f1f1f1 !important;
+	}
+}	
+</style>
+<!--[if gte mso 9]> 
+<style> 
+ .em_lh_130 {
+ line-height: 130%;
+}
+.em_blog_copy p {
+	line-height: 125%;
+}
+.em_body_link a {
+	line-height: 125%;
+}
+</style> 
+<![endif]-->

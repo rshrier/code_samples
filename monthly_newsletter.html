@@ -1,0 +1,404 @@
+%%[ 
+
+SET @FirstName = Propercase([FirstName]) 
+IF NOT EMPTY(@FirstName) THEN SET @Salutation = CONCAT("Hello ", @FirstName, "!") 
+ELSE SET @Salutation = "Hello!" ENDIF 
+
+var @blogLinkFaith, @blogLinkFinancial, @blogLinkHealth, @blogLinkGrowth, @blogTitleFaith, @blogTitleFinancial, @blogTitleHealth, @blogTitleGrowth
+
+
+SET @blogLinkFaith = ""
+SET @blogLinkFinancial = ""
+SET @blogLinkHealth = ""
+SET @blogLinkGrowth = ""
+
+SET @blogTitleFaith = ""
+SET @blogTitleFinancial = ""
+SET @blogTitleHealth = ""
+SET @blogTitleGrowth = ""
+
+]%%
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" lang="en" dir="ltr">
+<head>
+<!--[if gte mso 9]>
+<xml>
+<o:OfficeDocumentSettings>
+ <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+ </o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+<!--[if gte mso 9]>
+<xml>
+<w:WordDocument xmlns:w="urn:schemas-microsoft-com:office:word">
+<w:DontUseAdvancedTypographyReadingMail/>
+</w:WordDocument>
+</xml><![endif]-->
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+<meta name="format-detection" content="telephone=no, date=no, address=no, email=no, url=no">
+<meta name="x-apple-disable-message-reformatting">
+<meta name="color-scheme" content="light dark"/>
+<meta name="supported-color-schemes" content="light dark"/>
+<title>[Subject Line]</title>
+%%=ContentBlockByName("Content Builder\FUB_ContentBlocks\CSS\base_style_css_temp")=%% 
+%%=ContentBlockByName("Content Builder\FUB_ContentBlocks\CSS\newsletter_css")=%%
+<!--[if gte mso 9]> 
+<style> 
+ p, ul li, ol li, h1, h2, h3, h4, h5, h6, a {
+	line-height: 140%;
+}
+td, p, h1, h2, h3, h4, h5, h6, span, ol, ul, li {
+    mso-hyphenate:none;
+ }
+</style> 
+<![endif]-->
+</head>
+<body bgcolor="#EBEBEB" class="em_body em_dark" style="margin:0px auto; padding:0px;" xml:lang="en">
+%%=ContentBlockByName("Content Builder\FUB_ContentBlocks\2024 Template\FUB_IPT_Spacer")=%%
+<custom name="opencounter" type="tracking"/>
+<table cellpadding="0" cellspacing="0" border="0" role="presentation" width="100%" bgcolor="#EBEBEB" class="em_dark" style="table-layout:fixed;" dir="ltr" lang="en">
+	<tr>
+		<td align="left" valign="top">
+			<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" class="em_container em_grey_bg" style="max-width:600px; table-layout:fixed;" width="600" bgcolor="#ffffff">
+				<!-- == Header Section == -->
+				<tr>
+					<td align="center" valign="top" class="em_dark">
+						<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							%%=ContentBlockByName("Content Builder\FUB_ContentBlocks\2024 Template\FUB_Header_Logo")=%%
+						</table>
+					</td>
+				</tr>
+				<!-- == //Header Section == -->
+				<!-- == Body Section == -->
+				<tr>
+					<td align="center" valign="top">
+						<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tr>
+								<td align="center" valign="top">
+									<img src="https://image.em.firstunitedbank.com/lib/fe3f11717164047f751771/m/1/newsletter_header_image.png" alt="Spend Life Wisely" width="600" style="height: auto; width: 100%; display: block;" border="0">
+								</td>
+							</tr>
+							<tr>
+								<td align="center" valgin="top">
+									<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+										<tr>
+											<td align="center" valign="top" style="padding:30px 20px;" class="em_read_more">
+												<p style="font-size: 22px; line-height: 1.3; font-weight: bold; margin-bottom: 5px;">%%=v(@Salutation)=%%</p>
+												<p style="font-size: 18px; line-height: 1.4;">Take a look at our newest blog posts on how to Spend&nbsp;Life&nbsp;Wisely<sup style="font-size: 12px; line-height: 13px;">&reg;</sup></p>
+											</td>
+										</tr>
+										<!-- Blog Wrapper -->
+										<tr>
+											<td align="center" valign="top" style="background-color: #1e376c; padding: 50px 30px 40px;" class="em_content_padding">
+												<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+													<!-- Faith -->
+													<tr>
+														<td align="center" valgin="top" style="border-bottom: 2px solid #ffffff; padding-bottom: 40px;">
+															<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+																<tr>
+																	<td align="center" valign="top" class="em_full_block" width="200">
+																		<a alias="Faith_Image" href="%%=RedirectTo(@blogLinkFaith)=%%" target="_blank"><img src="https://image.em.firstunitedbank.com/lib/fe3f11717164047f751771/m/1/faith_blog_image.png" alt="Read About %%=v(@blogTitleFaith)=%%" border="0" style="display: block; height: auto;" width="200" /></a>
+																	</td>
+																	<td align="center" valign="top" class="em_stack">
+																		<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+																			<tr>
+																				<td align="left" valign="top" style="padding: 15px 0 0 30px;" class="em_stack em_blog_copy">
+																					<h2 style="font-size: 20px; margin-bottom: 15px; color: #ffffff; font-weight: bold;" class="em_white_text em_center">%%=v(@blogTitleFaith)=%%</h2>
+																					<p style="color: #ffffff; font-size: 16px;" class="em_white_text">Faith Summary Copy</p>
+																					<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+																						<tr>
+																							<td align="right" valign="top" style="padding-top: 30px;" class="em_button_wrapper">
+																								<table role="presentation" border="0" cellpadding="0" cellspacing="0" bgcolor="#f1f1f1" class="em_center" style="border-radius: 6px;">
+																									<tr>
+																										<td align="center" valign="middle" style="font-size: 16px; line-height: 20px; padding:10px 15px;" class="em_button"><a alias="Faith_Read_More" href="%%=RedirectTo(@blogLinkFaith)=%%" style="color:#1e376c;text-decoration:none; font-weight: bold;" target="_blank">Read More</a>
+																										</td>
+																									</tr>
+																								</table>
+																							</td>
+																						</tr>
+																					</table>
+																				</td>
+																			</tr>
+																		</table>
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+													<!-- Financial Wellbeing -->
+													<tr>
+														<td align="center" valgin="top" style="border-bottom: 2px solid #ffffff; padding: 40px 0;">
+															<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+																<tr>
+																	<td align="center" valign="top" class="em_full_block" width="200">
+																		<a alias="Financial_Image" href="%%=RedirectTo(@blogLinkFinancial)=%%" target="_blank"><img src="https://image.em.firstunitedbank.com/lib/fe3f11717164047f751771/m/1/financial_blog_image.png" alt="Read About %%=v(@blogTitleFinancial)=%%" border="0" style="display: block; height: auto;" width="200" /></a>
+																	</td>
+																	<td align="center" valign="top" class="em_stack">
+																		<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+																			<tr>
+																				<td align="left" valign="top" style="padding: 15px 0 0 30px;" class="em_stack em_blog_copy">
+																					<h2 style="font-size: 20px; margin-bottom: 15px; color: #ffffff; font-weight: bold;" class="em_white_text em_center">%%=v(@blogTitleFinancial)=%%</h2>
+																					<p style="color: #ffffff; font-size: 16px;" class="em_white_text">Financial Wellness Summary Copy</p>
+																					<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+																						<tr>
+																							<td align="right" valign="top" style="padding-top: 30px;" class="em_button_wrapper">
+																								<table role="presentation" border="0" cellpadding="0" cellspacing="0" bgcolor="#f1f1f1" class="em_center" style="border-radius: 6px;">
+																									<tr>
+																										<td align="center" valign="middle" style="font-size: 16px; line-height: 20px; padding:10px 15px;" class="em_button"><a alias="Financial_Read_More" href="%%=RedirectTo(@blogLinkFinancial)=%%" style="color:#1e376c;text-decoration:none; font-weight: bold;" target="_blank">Read More</a>
+																										</td>
+																									</tr>
+																								</table>
+																							</td>
+																						</tr>
+																					</table>
+																				</td>
+																			</tr>
+																		</table>
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+													<!-- Health -->
+													<tr>
+														<td align="center" valgin="top" style="border-bottom: 2px solid #ffffff; padding: 40px 0;">
+															<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+																<tr>
+																	<td align="center" valign="top" class="em_full_block" width="200">
+																		<a alias="Health_Image" href="%%=RedirectTo(@blogLinkHealth)=%%" target="_blank"><img src="https://image.em.firstunitedbank.com/lib/fe3f11717164047f751771/m/1/health_blog_image.png" alt="Read About %%=v(@blogTitleHealth)=%%" border="0" style="display: block; height: auto;" width="200" /></a>
+																	</td>
+																	<td align="center" valign="top" class="em_stack">
+																		<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+																			<tr>
+																				<td align="left" valign="top" style="padding: 15px 0 0 30px;" class="em_stack em_blog_copy">
+																					<h2 style="font-size: 20px; margin-bottom: 15px; color: #ffffff; font-weight: bold;" class="em_white_text em_center">%%=v(@blogTitleHealth)=%%</h2>
+																					<p style="color: #ffffff; font-size: 16px;" class="em_white_text">Health Summary Copy</p>
+																					<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+																						<tr>
+																							<td align="right" valign="top" style="padding-top: 30px;" class="em_button_wrapper">
+																								<table role="presentation" border="0" cellpadding="0" cellspacing="0" bgcolor="#f1f1f1" class="em_center" style="border-radius: 6px;">
+																									<tr>
+																										<td align="center" valign="middle" style="font-size: 16px; line-height: 20px; padding:10px 15px;" class="em_button"><a alias="Health_Read_More" href="%%=RedirectTo(@blogLinkHealth)=%%" style="color:#1e376c;text-decoration:none; font-weight: bold;" target="_blank">Read More</a>
+																										</td>
+																									</tr>
+																								</table>
+																							</td>
+																						</tr>
+																					</table>
+																				</td>
+																			</tr>
+																		</table>
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+													<!-- Personal Growth -->
+													<tr>
+														<td align="center" valgin="top" style="padding-top: 40px;">
+															<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+																<tr>
+																	<td align="center" valign="top" class="em_full_block" width="200">
+																		<a alias="Growth_Image" href="%%=RedirectTo(@blogLinkGrowth)=%%" target="_blank"><img src="https://image.em.firstunitedbank.com/lib/fe3f11717164047f751771/m/1/growth_blog_image.png" alt="Read About %%=v(@blogTitleGrowth)=%%" border="0" style="display: block; height: auto;" width="200" /></a>
+																	</td>
+																	<td align="center" valign="top" class="em_stack">
+																		<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+																			<tr>
+																				<td align="left" valign="top" style="padding: 15px 0 0 30px;" class="em_stack em_blog_copy">
+																					<h2 style="font-size: 20px; margin-bottom: 15px; color: #ffffff; font-weight: bold;" class="em_white_text em_center">%%=v(@blogTitleGrowth)=%%</h2>
+																					<p style="color: #ffffff; font-size: 16px;" class="em_white_text">Personal Growth Summary Copy</p>
+																					<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+																						<tr>
+																							<td align="right" valign="top" style="padding-top: 30px;" class="em_button_wrapper">
+																								<table role="presentation" border="0" cellpadding="0" cellspacing="0" bgcolor="#f1f1f1" class="em_center" style="border-radius: 6px;">
+																									<tr>
+																										<td align="center" valign="middle" style="font-size: 16px; line-height: 20px; padding:10px 15px;" class="em_button"><a alias="Growth_Read_More" href="%%=RedirectTo(@blogLinkGrowth)=%%" style="color:#1e376c;text-decoration:none; font-weight: bold;" target="_blank">Read More</a>
+																										</td>
+																									</tr>
+																								</table>
+																							</td>
+																						</tr>
+																					</table>
+																				</td>
+																			</tr>
+																		</table>
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+													<!-- End Last Post -->
+												</table>
+											</td>
+										</tr>
+										<!-- End Blog Wrapper -->
+										<!-- Read More Bar -->
+										<tr>
+											<td align="center" valgin="top" style="font-size: 16px; padding: 10px; border-top: 2px solid #ebebeb;" class="em_p_20">
+												<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+													<tr>
+														<td align="center" valign="top" style="padding: 10px 20px;" class="em_read_more">
+															<h4 style="font-size: 20px; color: #1D366C; font-weight: bold; text-transform: uppercase;" class="em_white_text">Read More about:</h4>
+														</td>
+													</tr>
+													<tr>
+														<td align="center" valgin="top" style="padding: 10px 0;">
+															<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+																<tr>
+																	<td align="center" valign="top" class="em_full_block em_pillar" width="120" style="padding-right:20px;">
+																		<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="em_center">
+																			<tr>
+																				<td align="center" valgin="top" style="padding: 10px 10px 15px;" class="em_desk_stack em_icon">
+																					<a href="https://www.firstunitedbank.com/spendlifewisely/category/faith" target="_blank" style="text-decoration: none;" alias="Faith_Footer_Icon"><img src="https://image.em.firstunitedbank.com/lib/fe3f11717164047f751771/m/1/faith_icon.png" alt="Faith" border="0" style="display: block; height: auto;" width="30" /></a>
+																				</td>
+																				<!--[if mso]>
+																			</tr>
+																			<tr>
+																				<![endif]-->
+																				<td align="center" valgin="middle" class="em_desk_stack">
+																					<h5 style="font-size: 16px; text-transform: uppercase; font-weight: bold;" class="em_white_text"><a href="https://www.firstunitedbank.com/spendlifewisely/category/faith" target="_blank" style="text-decoration: none; color: #BE0E20;" alias="Faith_Footer_Text">Faith</a></h5>
+																				</td>
+																			</tr>
+																		</table>
+																	</td>
+																	<td align="center" valign="top" class="em_full_block em_pillar" width="120" style="padding-right: 20px;">
+																		<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="em_center">
+																			<tr>
+																				<td align="center" valgin="top" style="padding: 10px 10px 15px;" class="em_desk_stack em_icon">
+																					<a href="https://www.firstunitedbank.com/spendlifewisely/category/financial%20well-being" target="_blank" style="text-decoration: none;" alias="Financial_Footer_Icon"><img src="https://image.em.firstunitedbank.com/lib/fe3f11717164047f751771/m/1/financial_icon.png" alt="Financial Wellbeing" border="0" style="display: block; height: auto;" width="30" /></a>
+																				</td>
+																				<!--[if mso]>
+																			</tr>
+																			<tr>
+																				<![endif]-->
+																				<td align="center" valgin="middle"  class="em_desk_stack">
+																					<h5 style="font-size: 16px; text-transform: uppercase; font-weight: bold;" class="em_white_text"><a href="https://www.firstunitedbank.com/spendlifewisely/category/financial%20well-being" target="_blank" style="text-decoration: none; color: #23356f;" alias="Financial_Footer_Text" class="em_blue_text">Financial Wellbeing</a></h5>
+																				</td>
+																			</tr>
+																		</table>
+																	</td>
+																	<td align="center" valign="top" class="em_full_block em_pillar" width="120" style="padding-right:20px;">
+																		<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="em_center">
+																			<tr>
+																				<td align="center" valgin="top" style="padding: 10px 10px 15px;" class="em_desk_stack em_icon">
+																					<a href="https://www.firstunitedbank.com/spendlifewisely/category/health%20and%20wellness" target="_blank" style="text-decoration: none;" alias="Health_Footer_Icon"><img src="https://image.em.firstunitedbank.com/lib/fe3f11717164047f751771/m/1/health_icon.png" alt="Health" border="0" style="display: block; height: auto;" width="30" /></a>
+																				</td>
+																				<!--[if mso]>
+																			</tr>
+																			<tr>
+																				<![endif]-->
+																				<td align="center" valgin="top"  class="em_desk_stack">
+																					<h5 style="font-size: 16px; text-transform: uppercase; font-weight: bold;" class="em_white_text"><a href="https://www.firstunitedbank.com/spendlifewisely/category/health%20and%20wellness" target="_blank" style="text-decoration: none; color: #528116;" alias="Health_Footer_Text">Health</a></h5>
+																				</td>
+																			</tr>
+																		</table>
+																	</td>
+																	<td align="center" valign="top" class="em_full_block em_pillar_last" width="120" style="padding-right:20px;">
+																		<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="em_center">
+																			<tr>
+																				<td align="center" valgin="top" style="padding: 10px 10px 15px;" class="em_desk_stack em_icon">
+																					<a href="https://www.firstunitedbank.com/spendlifewisely/category/personal%20growth" target="_blank" style="text-decoration: none;" alias="Growth_Footer_Icon">
+																					<img src="https://image.em.firstunitedbank.com/lib/fe3f11717164047f751771/m/1/personal_growth_icon.png" width="30" alt="Personal Growth" border="0" style="display:block;max-width:30px;" >
+																					</a>
+																				</td>
+																				<!--[if mso]>
+																			</tr>
+																			<tr>
+																				<![endif]-->
+																				<td align="center" valgin="top"  class="em_desk_stack">
+																					<h5 style="font-size: 16px; text-transform: uppercase; font-weight: bold;" class="em_white_text"><a href="https://www.firstunitedbank.com/spendlifewisely/category/personal%20growth" target="_blank" style="text-decoration: none; color: #2D68C4;" alias="Growth_Footer_Text">Personal Growth</a></h5>
+																				</td>
+																			</tr>
+																		</table>
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<!-- End Read More Bar -->
+										<!-- Link Bar -->
+										<tr>
+											<td align="center" valgin="top" style="font-size: 16px; padding: 20px 10px; background-color: #676565" class="em_white_border em_grey_bg">
+												<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0">
+													<!-- two or More Links 
+														<tr>
+														 <td align="center" valign="middle" style="border-right: 2px solid #ffffff; padding: 0 10px;" class="em_body_link em_border_none em_padding_none em_pb_15">
+														  <a alias="Go_Paperless" href="https://www.firstunitedbank.com/e-statements" style="color:#ffffff; text-decoration: underline; text-transform: uppercase;" target="_blank" class="em_white_text">Go Paperless</a>
+														 </td>
+														 <td align="center" valign="middle" style="padding: 0 10px;" class="em_body_link em_padding_none">
+														  <a alias="Update_Personal_Information" href="" style="color:#ffffff;text-decoration: underline; text-transform: uppercase;" class="em_white_text" target="_blank">Update&nbsp;Personal&nbsp;Information</a>
+														 </td>
+														</tr>
+														-->
+													<tr>
+														<td align="center" valign="middle" class="em_body_link">
+															<a alias="Go_Paperless" href="https://www.firstunitedbank.com/e-statements" style="color:#ffffff; text-decoration: underline; text-transform: uppercase;" target="_blank" class="em_white_text">Go Paperless</a>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<!-- == Link Bar -->
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<!-- == //Body Section == -->
+				<!-- == Footer Section == -->
+				<tr>
+					<td align="center" valign="top" class="em_dark">
+						<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+							<!-- Feedback Block -->
+							%%=ContentBlockByName("Content Builder\FUB_ContentBlocks\2024 Template\FUB_Feedback_Block")=%%
+							<!--= Grey Footer -->
+							<tr>
+								<td align="left" valign="top" style="background-color: #ebebeb; padding: 20px 20px 10px;" class="em_dark em_content_padding">
+									<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+										<!-- Grey Social Links -->
+										<tr>
+											<td align="center" valign="top" style="padding: 10px 0 10px;">
+												<table cellpadding="0" cellspacing="0" border="0" role="presentation" align="center">
+													%%=ContentBlockByName("Content Builder\FUB_ContentBlocks\2024 Template\FUB_Social_Icons")=%%
+												</table>
+											</td>
+										</tr>
+										<!-- == //Grey Social Links -->
+										<!-- Footer Copy -->
+										<tr>
+											<td align="left" style="font-size: 11px; color:#676767; padding: 10px 0 5px;" class="em_white_text em_footer">
+												<!--FUB_Address_Text -->
+												<p style="text-align: center;">%%=ContentBlockByName("Content Builder\FUB_ContentBlocks\2024 Template\FUB_Address_Text")=%%</p>
+												<!-- FUB_Web_Alternate_Text -->
+												<p style="text-align: center; margin-top: 10px;">%%=ContentBlockByName("Content Builder\FUB_ContentBlocks\2024 Template\FUB_Web_Alternate_Text")=%%</p>
+												
+												%%=ContentBlockByName("Content Builder\FUB_ContentBlocks\2024 Template\FUB_Preference_Text")=%%
+											</td>
+										</tr>
+										<!-- == //Footer Copy -->
+									</table>
+								</td>
+							</tr>
+							<!-- == //Grey Footer -->
+							<!--= Grey Footer -->
+							%%=ContentBlockByName("Content Builder\FUB_ContentBlocks\2024 Template\FUB_FDIC_Footer")=%%
+						</table>
+					</td>
+				</tr>
+				<!-- == //Footer Section == -->
+			</table>
+		</td>
+	</tr>
+</table>
+</body>
+</html>
